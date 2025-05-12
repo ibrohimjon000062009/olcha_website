@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.card {
+  position: relative;
+  width: 280px;
+  border-radius: 10px;
+  padding: 12px;
+  background: #fff;
+  text-align: center;
+}
+
+.badge {
+  position: absolute;
+  background: rgb(194, 43, 43);
+  color: white;
+  top: 10px;
+  left: 25px;
+  padding: 3px 6px;
+  font-size: 11px;
+  border-radius: 5px;
+}
+
+.actions {
+  position: absolute;
+  top: 5px;
+  left: 215px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.btn {
+  background: #f3f3f3;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.imgBox img {
+  width: 80%;
+  height: 220px;
+}
+
+.title {
+  font-weight: 600;
+  margin: 0px 0 15px;
+  font-size: 14px;
+}
+
+.prices {
+    display: flex;
+    
+}
+
+.price {
+  color: rgb(194, 43, 43);
+  font-weight: bold;
+}
+
+.old {
+  text-decoration: line-through;
+  color: #333;
+  font-size: 11px;
+}
+
+.month {
+  background-color: #ffd700;
+  border: none;
+  border-radius: 5px;
+  padding: 6px;
+  color: black;
+  font-size: 11px;
+  margin: 0px 100px 10px 0px;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 5px 35px 0px 0px;
+}
+
+.yellow {
+  padding: 10px;
+  border: 2px solid rgb(194, 43, 43);
+  color: rgb(194, 43, 43);
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.blue {
+  color: #333;
+  border: 2px solid #333;
+  border-radius: 5px;
+  padding: 8px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+
