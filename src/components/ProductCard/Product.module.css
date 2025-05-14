@@ -8,13 +8,14 @@
   position: relative;
   width:240px;
   border-radius: 10px;
-  padding: 20px;
+  padding: 10px;
+  padding-bottom: 65px;
   background: #fff;
 }
 
 .img_shadow{
     width: 100%;
-    height: 68%;
+    height: 70%;
     border-radius: 10px;
     background-color: #e2e5e6;
 }
@@ -23,10 +24,9 @@
   position: absolute;
   background: rgb(185, 62, 62);
   color: white;
-  top: 25px;
-  left: 25px;
+  top: 10px;
   padding: 3px 6px;
-  font-size: 11px;
+  font-size: 13px;
   border-radius: 5px;
 }
 
@@ -44,13 +44,13 @@
   border-radius: 50%;
   width: 30px;
   height: 30px;
-  font-size: 15px;
+  font-size: 20px;
   cursor: pointer;
 }
 
 .imgBox img {
   width: 100%;
-  padding-top: 35px;
+  padding-top: 60px;
   height: auto;
   display: block;
 }
@@ -58,15 +58,13 @@
 .title {
     font-size: 15px;
     font-weight: 600;
-    margin: 15px 0 10px 0;
+    margin: 15px 0 35px 0;
   
 }
 
 .prices {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
+    gap: 5px;
     margin-bottom: 5px;
     
 }
@@ -90,14 +88,13 @@
   border-radius: 5px;
   padding: 6px;
   color: black;
-  font-size: 10px;
+  font-size: 11px;
   margin: 0px 85px 20px 0px;
 }
 
 .btns {
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 12px;
   margin: 5px 35px 0px 0px;
 }
