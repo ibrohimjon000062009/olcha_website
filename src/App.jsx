@@ -1,5 +1,5 @@
 import './App.css';
-import Home from './components/Home/Home';
+import Add from './components/Add/Add';
 
 
 
@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="wrp__one">
         
-        <Home/>
+        <Add/>
       
     </div>
   );
