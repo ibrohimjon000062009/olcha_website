@@ -1,14 +1,14 @@
 import './App.css';
-import Add from './components/Add/Add';
+import Link from './components/Link/Link';
+
+
 
 
 
 function App() {
   return (
     <div className="wrp__one">
-        
-        <Add/>
-      
+      <Link/>
     </div>
   );
 }

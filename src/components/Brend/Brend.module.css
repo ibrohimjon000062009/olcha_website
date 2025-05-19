@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wall{
+    width: 405px;
+    height: 300px;
+    border-radius: 25px;
+    background-color: #ebe5e5;
+    margin: 50px 0 0 25px;
+}
+.brends{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 180px;
+    padding: 25px 0 35px 0;
+}
+
+.open{
+    font-size: 15px;
+    color: red;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.open:hover{
+    color: rgb(223, 58, 58);
+}
+.logo{
+    width: 70px;
+    height: auto;
+    object-fit: contain;
+}
+.all_products{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+}
+
+.wall_product_one{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+
+}
+.wall_product_two{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+
+}
+.wall_product_three{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.product_one{
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.3s ease;
+
+}
+.product_one:hover{
+    transform: scale(1.03);
+}
+.product_two{
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.3s ease;
+
+}
+.product_two:hover{
+    transform: scale(1.03);
+}
+.product_three{
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.3s ease;
+
+}
+.product_three:hover{
+    transform: scale(1.03);
+}
+
+.product_one_text{
+    cursor: pointer;
+}
+.product_one_text:hover{
+    color: rgb(230, 57, 57);
+}
+.product_two_text{
+    cursor: pointer;
+}
+.product_two_text:hover{
+    color: rgb(230, 57, 57);
+}
+.product_three_text{
+    cursor: pointer;
+}
+.product_three_text:hover{
+    color: rgb(230, 57, 57);
+}
+
+
+

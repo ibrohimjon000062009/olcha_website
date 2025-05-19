@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,16 +14,17 @@
 
 }
 .img_furniture{
-    width: 580px;
+    width: 650px;
     height: auto;
     border-radius: 25px;
-    margin-left: 25px;
+    margin-left: 25px; 
 }
+
 .img_fridge{
-    width: 580px;
+    width: 650px;
     height: auto;
     border-radius: 25px;
     margin-right: 25px;
 
 
-}
+} */
