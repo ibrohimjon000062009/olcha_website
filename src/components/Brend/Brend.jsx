@@ -9,8 +9,18 @@ const Brend = ({ data }) => {
 
         <div className={styles.brends}>
           {data.brends}
-          <img className={styles.logo} src={data.logoImg} alt="" />
-          {data.logo}
+          <img
+          src={data.logoImg}
+          alt=""
+          className={
+          data.id === 4
+          ? styles.bigLogo
+          : data.id === 5
+          ? styles.sony_logo
+          : styles.logo
+  }
+/>
+
           <p className={styles.open}>all products  &gt;</p>
           {data.open}
         </div>
